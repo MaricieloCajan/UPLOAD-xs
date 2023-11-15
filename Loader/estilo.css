@@ -1,0 +1,94 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;700&display=swap');
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+ body {
+    background-color: rgb(241, 236, 252);
+  }
+  .container1{
+    border-style: dashed;
+    border-color: rgba(221, 221, 221, 0.836);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+    background: #ffffff;
+    border-radius: 6%;
+  }
+  .container2{
+    border-style: dashed;
+    border-color: rgba(221, 221, 221, 0.836);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40%;
+    background: #ffffff;
+    border-radius: 6%;
+  }
+
+  input[type=submit]{
+    background-color: #aa86ff; 
+    border: solid;
+    border-radius: 10px;
+    border-color: #a69dff; 
+    padding: 15px 28px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  /* diseño de selecionar archivo */
+  input[type="file"] {
+    background-color: rgba(228, 182, 255, 0.37);
+    border: 5px solid rgba(228, 182, 255, 0.37);
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+  }
+  
+  
+  /* Tamaño de la tabla de los archivos ya subidos */
+  table {
+    width: 100%;
+  }
+
+  /* Color de fondo y letra de la tabla*/ 
+  th {
+    background-color: rgb(156, 136, 247);
+    color: #000000;
+    width: 10%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Color de fondo y letra de los archivos ya descargados*/
+  td {
+    background-color: rgb(193, 172, 250);
+    color: #030303;
+    font-family:'Times New Roman', Times, serif 
+  }
+  
